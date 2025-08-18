@@ -1,0 +1,26 @@
+[
+  {
+    "tools": [
+      "Weather"
+    ],
+    "server_Name": "server1",
+    "formate": "HTML",
+    "server_token": "7b337761-4d94-42c4-b6e7-b999dafa2eeb"
+  },
+  {
+    "tools": [
+      "Weather"
+    ],
+    "server_Name": "server1",
+    "formate": "HTML",
+    "server_token": "b637ad03-54d2-4ae4-bc97-a1d4d277fc2f"
+  },
+  {
+    "tools": [
+      "Weather"
+    ],
+    "server_Name": "server1",
+    "formate": "HTML",
+    "server_token": "6abb0e4c-9408-4d02-a5ef-bd9167c5e4c1"
+  }
+]
