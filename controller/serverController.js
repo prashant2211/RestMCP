@@ -8,10 +8,11 @@ initializeTools();
 
 const mainHandler = async (req, res) => {
   try {
+    console.log(`I am inside server controller -=-=-`);
     const userPrompt = req.body.prompt;
     const token = req.headers['x-sf-token'];
     const isToolMode = true;//req.headers['x-custom-tool'];
-
+    console.log(`userPrompt -=-=-=- ${userPrompt}`);
     if (!userPrompt) {
       return res.status(400).json({
         code: 400,

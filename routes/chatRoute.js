@@ -5,7 +5,7 @@ import {updateChannelHandler} from '../controller/channelController.js'
 // import authenticate from '../middleware/authenticate.js';
 
 const router = express.Router();
-
+console.log(`I am inside chatroute -=-=-`);
 router.post('/prompt', mainHandler);
 router.post('/register-channel', updateChannelHandler);
 
