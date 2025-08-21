@@ -1,8 +1,8 @@
 import OpenAI from "openai";
-
-const openai = new OpenAI({
-  apiKey: "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", // ⚠️ WARNING: Move this to .env!
-});
+import dotenv from 'dotenv';
+//const openai = new OpenAI({apiKey: "ddff"});
+dotenv.config();
+const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
 /**
  * Generates a natural response using ChatGPT

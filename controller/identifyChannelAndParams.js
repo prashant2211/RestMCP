@@ -4,6 +4,7 @@ import dotenv from 'dotenv';
 import { readFile } from 'fs/promises';
 import { fileURLToPath } from 'url';
 import path from 'path';
+
 // import channelInfo from './channelConfig.json' assert { type: 'json' };
 
 dotenv.config();
