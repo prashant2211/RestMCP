@@ -40,7 +40,7 @@ app.listen(PORT, () => {
 });
 
 // Ensure BASE_URL is defined in .env (e.g., BASE_URL=/api) mcpRegistration
- app.use(`${process.env.BASE_URL}/MCP`, chatRoute);
+app.use(`${process.env.BASE_URL}/MCP`, chatRoute);
 app.use(`${process.env.BASE_URL}/Integration`, mcpRegistration);
 app.use(`${process.env.BASE_URL}/authrization`, authorization);
 //app.use("/", mcpRouter); // this gives /MCP/describe and /MCP/prompt
